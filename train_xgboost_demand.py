@@ -18,8 +18,9 @@ from sklearn.metrics import classification_report, accuracy_score
 # CONFIG
 # ============================================================
 
-TRAIN_PATH = "./data/clean data/ml data/ml_train.csv"
-TEST_PATH  = "./data/clean data/ml data/ml_test_2025.csv"
+TRAIN_PATH = "./data/clean data/ml data/ml_train_feb_march.csv"
+TEST_PATH  = "./data/clean data/ml data/ml_test_2025_feb_march.csv"
+
 MODEL_DIR  = "./models"
 
 os.makedirs(MODEL_DIR, exist_ok=True)
